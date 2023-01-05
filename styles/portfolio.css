@@ -15,7 +15,7 @@
     background: #FD6E0A;
     border-radius: 5px;
     border: 0;
-    padding: 18px 35px;
+    padding: 18px 20px;
 }
 .btn-contact{
     color: #FD6E0A;
@@ -25,7 +25,8 @@
     background: #ffffff;
     border-radius: 5px;
     border: 2px solid #FD6E0A;
-    padding: 18px 35px;
+    padding: 18px 20px;
+    margin-left: 20px;
 }
 /* header and navigation styles */
 nav {
@@ -83,10 +84,13 @@ nav li {
 }
 .banner ul{
     display: flex;
-    margin-left: 0;
+    align-items: center;
+    padding: 0;
 }
 .banner ul li{
     list-style: none;
+    padding: 0;
+    
 
 }
 /* main section */
