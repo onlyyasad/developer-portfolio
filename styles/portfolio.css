@@ -17,7 +17,16 @@
     border: 0;
     padding: 18px 35px;
 }
-
+.btn-contact{
+    color: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    height: 64px;
+    background: #ffffff;
+    border-radius: 5px;
+    border: 2px solid #FD6E0A;
+    padding: 18px 35px;
+}
 /* header and navigation styles */
 nav {
     display: flex;
@@ -72,7 +81,14 @@ nav li {
     font-size: 18px;
     margin-bottom: 30px;
 }
+.banner ul{
+    display: flex;
+    margin-left: 0;
+}
+.banner ul li{
+    list-style: none;
 
+}
 /* main section */
 main {
     max-width: 1140px;
@@ -213,22 +229,28 @@ main {
 }
 /* contact styles */
 
-.contact{
+.contact-container{
     display: flex;
+    justify-content: space-between;
     background: #FFF8F3;
     margin-top: 113px;
-    padding: 130px 230px;
+    padding: 130px 113px;
 }
-.contact .section-title{
+.contact-container .section-title{
     text-align: left;
 }
 .social-link{
     text-decoration: none;
 }
 
-.contact input[type="text"], input[type="email"], textarea{
+.contact-container input[type="text"], input[type="email"], textarea{
     margin-bottom: 24px;
     border: 0;
     width: 100%;
     padding: 18px 30px;
+}
+
+.contact{
+    padding-right: 117px;
+    /* padding-left: 117px; */
 }
